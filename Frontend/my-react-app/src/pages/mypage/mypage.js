@@ -15,7 +15,7 @@ import flowers from './flowers.jpeg';
 import math from './math.jpeg';
 import boardgames from './boardgame.jpeg';
 import hannah from './hannah.jpeg';
-
+import Header from '../../components/header/header';
 
 function MyPage() {
     const [selectedItem, setSelectedItem] = useState("In Progress");
