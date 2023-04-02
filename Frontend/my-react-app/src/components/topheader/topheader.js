@@ -17,7 +17,7 @@ function Header() {
                         </Link>
                     </button>
                     <button className= "header-button" onclick="location.href='/goals'">
-                        <Link to = "/goals">
+                        <Link to = "/goal">
                         GOALS
                         </Link>
                     </button>
@@ -27,8 +27,8 @@ function Header() {
                         </Link>
                     </button>
                     <button className= "header-start-button">
-                        <Link to = "/challenges2">
-                        Start!
+                        <Link to = "/goal">
+                        Start🔥
                         </Link>
                     </button>
                 </div>

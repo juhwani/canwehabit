@@ -1,7 +1,7 @@
 #header{
     width: 100%;
     min-width: 1000px;
-    height: 70px;
+    height: 100px;
     display: flex;
     flex-direction: column ;
     justify-content: space-between;
@@ -27,24 +27,18 @@
     font-size: 20px;
     width:100px;
     height:40px;
+    margin: 10px;
     border-color: transparent;
     background-color: transparent;
 }
 .header-logo-button{
     font-weight: 400;
-    font-size: 20px;
-    width:150px;
+    font-size: 30px;
+    width:250px;
     height:40px;
     border-color: transparent;
     background-color: transparent;
 }
-.header-logo-button:hover{
-    width:150px;
-    height:40px;
-    border-radius:15px;
-    background-color: rgb(216, 203, 203);
-}
-
 .header-start-button{
     background-color: #89ACD2;
     width:100px;
@@ -52,14 +46,12 @@
     border-color: transparent;
     border-radius:15px;
     font-size:20px;
+    margin: 15px;
     color:white;
 }
 
-button:hover{
-    background-color: rgb(216, 203, 203);
-    border-radius:15px;
-}
-
 a{
+    text-decoration-color: currentColor;
     text-decoration: none;
+    color: black;
 }

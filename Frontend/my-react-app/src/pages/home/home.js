@@ -22,8 +22,8 @@ function home() {
                     <h5>Can we Have it?</h5>
                     <h6>Gather friends to make habits</h6>
                     <button className="start-button">
-                        <Link to = "/challenges2">
-                        Start!
+                        <Link to = "/goal">
+                        Start🔥
                         </Link>
                     </button>
                 </div>
@@ -80,7 +80,7 @@ function home() {
                     </div>
                 </div>
                 <p className="see-more">
-                    <Link to = "/challenges2">
+                    <Link to = "/goal">
                         See More ->
                     </Link>
                 </p>

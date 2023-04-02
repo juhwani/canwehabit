@@ -5,16 +5,21 @@ import mealsImg from "../image/Meals.png"
 import studyImg from "../image/Study.png"
 import travelImg from "../image/Travel.png"
 import OceanImg from "../image/Ocean.png"
+import magnifyingImg from "../image/magnifying.png"
+import Header from '../../components/header/header';
 
-function home() {
+
+function goal() {
     return(
-        <div>
+
+        <div id ="goalList">
+            <Header/>
+        <div className = "goalList-wrapper">
              <div className='search'>
                 <input type="text"placeholder="Search any goals" ></input>
-                <button type="submit">
-                    img
+                <button className = "search-button" type="submit">
+                    <img src= {magnifyingImg} height="30px"/>
                 </button>
-                
             </div>
 
             <div className="section4">
@@ -68,10 +73,9 @@ function home() {
 
             </div>
         </div>
-
-    
+        </div>
 
     )
 }
 
-export default home;
+export default goal;
