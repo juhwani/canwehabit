@@ -1,6 +1,5 @@
 
 import "./mypage.css"
-import React from 'react';
 import ProgressBar from "@ramonak/react-progress-bar";
 
 function mypage() {

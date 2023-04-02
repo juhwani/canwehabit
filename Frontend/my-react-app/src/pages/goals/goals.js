@@ -2,10 +2,13 @@ import "./goals.css";
 import gym from "./images/gym1.jpg";
 import React, { useState } from "react";
 import Modal from "../../Components/Modal/Modal"
+import Header from '../../components/header/header';
 
 function Goals() {
     const [modalOpen, setModalOpen] = useState(false);
     return(
+        <div id = "goals">
+            <Header></Header>    
         <div className="GoalContainer">
             <div className="contentContainer">
                 <img id="gymimg" src={gym}/> 
@@ -45,7 +48,7 @@ function Goals() {
 
             {/* Opens Modal */}
             {modalOpen && <Modal setOpenModal={setModalOpen} />}
-
+            </div>
         </div>
     )
 }

@@ -1,3 +1,7 @@
+#goals{
+    display: flex;
+}
+
 .GoalContainer {
     display: flex;
     flex-direction: column;
