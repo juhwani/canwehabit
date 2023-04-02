@@ -65,9 +65,9 @@ function MyPage() {
 
                 <div className = "Liked"> Challenges you liked</div>
                 <div className = "choices">
-                    <button className = "select"><img src = {math} alt = "my image" style={{ height: '50%',width: '100%'}}/>Learn new Math concepts</button>
-                    <button className = "select"><img src = {flowers} alt = "my image" style={{ height: '50%',width: '100%'}}/>Visit to Arboretum with us</button>
-                    <button className = "select"><img src = {boardgames} alt = "my image" style={{ height: '50%',width: '100%'}}/>Beat me in chess</button>
+                    <button className = "select"><img className = "imghelp" src = {math} alt = "my image" style={{ height: '50%',width: '100%'}}/>Learn new Math concepts</button>
+                    <button className = "select"><img className = "imghelp" src = {flowers} alt = "my image" style={{ height: '50%',width: '100%'}}/>Visit to Arboretum with us</button>
+                    <button className = "select"><img className = "imghelp" src = {boardgames} alt = "my image" style={{ height: '50%',width: '100%'}}/>Beat me in chess</button>
                 </div>
                 
             </div>
