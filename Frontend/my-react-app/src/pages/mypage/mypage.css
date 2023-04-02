@@ -1,0 +1,125 @@
+
+.MainContainer{
+    height: 1000px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.SubContainer{
+    height: 800px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProfileCon{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
+.ProfilePic{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(120, 120, 215);
+    margin-top: -50px;
+    border-radius: 15px;
+    
+}
+
+.NameCon{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+
+.Name{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.Points{
+    font-weight: bold;
+    
+}
+
+.Bar{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.Progress{
+    margin-top: -20px;
+    margin-right: 430px;
+}
+.bardis{
+    font-size: 20px;
+}
+.Columns{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.choose{
+    border: none;
+    background-color: white;
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.choose:hover{
+    cursor: pointer;
+}
+
+.choices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(182, 182, 182);
+    overflow-x: auto;
+    border-radius: 15px;
+    flex-shrink: 0;
+    gap: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+
+.select{
+    margin-left: auto;
+    min-width: 125px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+    
+}
+
+.select:hover{
+    cursor: pointer;
+
+
+}
+
+.Liked{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: left;
+
+}
