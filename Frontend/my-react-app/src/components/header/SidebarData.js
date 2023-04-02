@@ -16,7 +16,7 @@ export const  SidebarData = [
     {
         title: "Goals",
         icon: <EventNoteIcon />,
-        link: "/home"
+        link: "/"
     },
     {
         title: "Start",
