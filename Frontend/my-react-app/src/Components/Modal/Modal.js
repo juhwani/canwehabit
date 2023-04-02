@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Modal.css";
+import { useNavigate } from "react-router-dom";
 
 function Modal({ setOpenModal }) {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -11,6 +12,12 @@ function Modal({ setOpenModal }) {
 
   const handleDonateClick = () => {
     setGoalAccepted(true);
+  };
+  const navigate = useNavigate();
+
+  const navigateToMypage = () => {
+    // 👇️ navigate to /home
+    navigate('/mypage');
   };
 
   return (
@@ -72,7 +79,10 @@ function Modal({ setOpenModal }) {
           onClick={handleDonateClick}
           onClick={() => {
             setOpenModal(false);
-          }}
+            
+          }
+          }
+          onClick={navigateToMypage}
           
         >
           Back
