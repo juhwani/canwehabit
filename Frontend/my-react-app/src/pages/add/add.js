@@ -1,13 +1,17 @@
 import React from 'react';
-import "./mypage.css"
+import "./add.css"
 import Header from '../../components/header/header';
-function mypage() {
+
+function add() {
+
     return(
+
         <div className='add'>
+
             <Header></Header>
+            
         </div>
-        
-    )
+    );
 }
 
-export default mypage;
+export default add;
