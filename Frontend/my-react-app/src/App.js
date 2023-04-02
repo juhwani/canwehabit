@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 import Home from "./pages/home/home.js"
 import Mypage from "./pages/mypage/mypage.js"
 import Goals from "./pages/goals/goals.js"
