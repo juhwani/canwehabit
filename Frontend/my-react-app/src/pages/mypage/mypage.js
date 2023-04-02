@@ -1,9 +1,12 @@
 
 import "./mypage.css"
+import React, { useState } from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
+import gym1 from "../goals/images/gym1.jpg"
 
-function mypage() {
-    const now = 60;
+
+function MyPage() {
+    const [selectedItem, setSelectedItem] = useState(null);
     return(
         <div className = "MainContainer">
                 
@@ -16,12 +19,12 @@ function mypage() {
                     </div>
                 </div>
 
-                <div className = "Bar">
-                    <div>Succeeded</div>
-                    <div>Failed</div>
+                <div className = "Bars">
+                    <div className = "check">Succeeded</div>
+                    <div className = "check">Failed</div>
                 </div>
                 <div className = "Progress">
-                    <ProgressBar bgColor = "#89ACD2" completed="60" width = "1500%" />
+                    <ProgressBar width = "50px" labelAlignment = "center" bgColor = "#89ACD2" completed="60" width = "2100%" />
                     </div>
                 <div className = "Columns">
                     <button className = "choose">In Progress</button>
@@ -31,15 +34,23 @@ function mypage() {
                 </div>
 
                 <div className = "choices">
-                    <button className = "select">1</button>
-                    <button className = "select">2</button>
-                    <button className = "select">3</button>
-                    <button className = "select">3</button>
-                    <button className = "select">3</button>
+                    <button className = "select"><img src = {gym1} alt="my image" style={{ z: -1, height: '90px', margin: '0px 0px 100px' }}/></button>
+                    <button className = "select"></button>
+                    <button className = "select"></button>
+                    <button className = "select"></button>
+                    <button className = "select"></button>
 
                 </div>
 
                 <div className = "Liked"> Challenges you liked</div>
+                <div className = "choices">
+                    <button className = "select"></button>
+                    <button className = "select"></button>
+                    <button className = "select"></button>
+                    <button className = "select"></button>
+                    <button className = "select"></button>
+
+                </div>
                 
             </div>
         
@@ -49,4 +60,4 @@ function mypage() {
     )
 }
 
-export default mypage;
+export default MyPage;
