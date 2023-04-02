@@ -1,5 +1,6 @@
 #challenges2{
     display: flex;
+    width:fit-content;
 }
 
 .input{

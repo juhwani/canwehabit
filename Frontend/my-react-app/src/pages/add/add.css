@@ -21,9 +21,9 @@ body{
 }
 
 .Sidebar{
-    height: 100%;
     width: 250px;
-    background-color: white;
+    min-width: 250px;;
+    background-color: rgb(170, 177, 216);
     
     
 }
@@ -31,7 +31,7 @@ body{
 .SidebarList{
     height: auto;
     padding: 20px;
-    width: 100%;
+    width: 85%;
     border-radius: 30px;
     border-color: black;
     border-width: 10px;

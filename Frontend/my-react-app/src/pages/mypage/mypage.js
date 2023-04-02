@@ -3,13 +3,15 @@ import "./mypage.css"
 import React, { useState } from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 import gym1 from "../goals/images/gym1.jpg"
+import Header from '../../components/header/header';
 
 
 function MyPage() {
     const [selectedItem, setSelectedItem] = useState(null);
     return(
-        <div className = "MainContainer">
-                
+        <div id="mypage">
+            <Header/>  
+        <div className = "MainContainer">  
             <div className = "SubContainer">
                 <div className = "ProfileCon">
                     <div className = "ProfilePic"></div>
@@ -55,7 +57,7 @@ function MyPage() {
             </div>
         
         
-        
+            </div>
         </div>
     )
 }

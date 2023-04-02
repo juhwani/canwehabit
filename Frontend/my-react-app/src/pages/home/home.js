@@ -9,6 +9,7 @@ import mealsImg from "./image/Meals.png"
 import studyImg from "./image/Study.png"
 import travelImg from "./image/Travel.png"
 import employeeImg from "./image/Employee.png"
+import {Link} from "react-router-dom"
 
 function home() {
     return(
@@ -20,7 +21,11 @@ function home() {
                 <div className="yoga-transparent">
                     <h5>Can we Have it?</h5>
                     <h6>Gather friends to make habits</h6>
-                    <button className="start-button">Start!</button>
+                    <button className="start-button">
+                        <Link to = "/challenges2">
+                        Start!
+                        </Link>
+                    </button>
                 </div>
             </div>
             <div className="section2">
@@ -34,14 +39,14 @@ function home() {
                 <h4>STEPS</h4>
                 <div className="section3-content">
                     <div>
-                        <p>SET</p>
-                        <img className="content-square" src={setImg}></img>
-                        <h6 className="content-square-desc">Set your goals or habits that you want to make</h6>
-                    </div>
-                    <div>
                         <p>READY</p>
                         <img className="content-square" src={readyImg}></img>
                         <h6 className="content-square-desc">Gather people who wanted to achieve goal together</h6>
+                    </div>
+                    <div>
+                        <p>SET</p>
+                        <img className="content-square" src={setImg}></img>
+                        <h6 className="content-square-desc">Set your goals or habits that you want to make</h6>
                     </div>
                     <div>
                         <p>GO!</p>
@@ -74,7 +79,13 @@ function home() {
                         <h6 className="content-square1-points ">500pt</h6>
                     </div>
                 </div>
-                <p className="see-more">See More -> </p>
+                <p className="see-more">
+                    <Link to = "/challenges2">
+                        See More ->
+                    </Link>
+                </p>
+        
+                
             </div>
             <div className="section5">
                 <img src= {employeeImg} width = "300px" height="330px"/>

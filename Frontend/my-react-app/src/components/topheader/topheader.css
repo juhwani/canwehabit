@@ -59,3 +59,7 @@ button:hover{
     background-color: rgb(216, 203, 203);
     border-radius:15px;
 }
+
+a{
+    text-decoration: none;
+}

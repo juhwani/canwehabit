@@ -1,6 +1,12 @@
+#mypage{
+    display: flex;
+
+}
+
 
 .MainContainer{
     height: 1000px;
+    width:100%;
     background-color: lightgrey;
     display: flex;
     flex-direction: column-reverse;

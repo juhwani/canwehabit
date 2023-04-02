@@ -23,11 +23,11 @@ export const  SidebarData = [
         icon: <LocalFireDepartmentIcon />,
         link: "/challenges2"
     },
-    {
-        title: "Settings",
-        icon: <SettingsIcon />,
-        link: "/"
-    },
+    // {
+    //     title: "Settings",
+    //     icon: <SettingsIcon />,
+    //     link: "/"
+    // },
     {
         title: "Log Out",
         icon: <LogoutIcon />,
