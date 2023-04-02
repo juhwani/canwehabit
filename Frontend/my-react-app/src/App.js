@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import React from "react";
 import Home from "./pages/home/home.js"
 import Mypage from "./pages/mypage/mypage.js"
 import Challenges2 from "./pages/challenges2/challenges2"

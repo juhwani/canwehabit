@@ -21,7 +21,7 @@ export const  SidebarData = [
     {
         title: "Start",
         icon: <LocalFireDepartmentIcon />,
-        link: "/add"
+        link: "/challenges2"
     },
     {
         title: "Settings",
