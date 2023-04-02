@@ -7,6 +7,8 @@ import travelImg from "../image/Travel.png"
 import OceanImg from "../image/Ocean.png"
 import magnifyingImg from "../image/magnifying.png"
 import Header from '../../components/header/header';
+import {Link} from "react-router-dom"
+
 
 
 function goal() {
@@ -25,10 +27,12 @@ function goal() {
             <div className="section4">
                 <p className="section4-title">Recommend for you</p>
                 <div className="section4-content">
+                    <Link to = "/goals">
                     <button className="goals-square">
                         <img className="content-square1" src={gymImg}></img>
                         <h6 className="content-square1-desc">Going to the gym every day</h6>
                     </button>
+                    </Link>
                     <button className="goals-square">
                         <img className="content-square1" src={mealsImg}></img>
                         <h6 className="content-square1-desc">Get meals on Time</h6>
@@ -68,8 +72,8 @@ function goal() {
             </div>
 
             <div>
-                 <img className="bottom" src={OceanImg}>
-                 </img>
+                 {/* <img className="bottom" src={OceanImg}>
+                 </img> */}
 
             </div>
         </div>

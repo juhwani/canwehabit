@@ -16,6 +16,7 @@ import math from './math.jpeg';
 import boardgames from './boardgame.jpeg';
 import hannah from './hannah.jpeg';
 import Header from '../../components/header/header';
+import {Link} from "react-router-dom"
 
 function MyPage() {
     const [selectedItem, setSelectedItem] = useState("In Progress");
@@ -52,7 +53,7 @@ function MyPage() {
 
                 </div>
                 <div className = "choices">
-                    {selectedItem === "Succeeded" ? <button className = "select"><img className = "imghelp" src = {gym1} alt="my image" style={{ height: '50%',width: '100%', }}/><div className = "bubble">Workout with me!</div></button> : null}
+                    {selectedItem === "Failed" ? <Link to = "/goals"><button className = "select"><img className = "imghelp" src = {gym1} alt="my image" style={{ height: '50%',width: '100%', }}/><div className = "bubble">Workout with me!</div></button></Link> : null}
                     {selectedItem === "Succeeded" ? <button className = "select"><img className = "imghelp" src = {salad} alt = "my image" style={{ height: '50%',width: '100%'}}/>Vegetarian for a week</button> : null }
                     {selectedItem === "Succeeded" ? <button className = "select"><img className = "imghelp" src = {meditation} alt = "my image" style={{ height: '50%',width: '100%'}}/>Meditate once a day</button> : null }
                     {selectedItem === "In Progress" ? <button className = "select"><img className = "imghelp" src = {party} alt = "my image" style={{ height: '50%',width: '100%'}}/>Go out every friday with me</button> : null }

@@ -2,6 +2,7 @@ import React from 'react';
 import MyContainer from './MyContainer';
 import "./challenges2.css"
 import Header from '../../components/header/header';
+import {Link} from "react-router-dom"
 
 
 function challenges2() {
@@ -63,7 +64,11 @@ function challenges2() {
                 <h1>Points that you set</h1>
                 <input className='input2'></input>
                 <div>
-                <button className='post'> Start</button>
+                <button className='post'> 
+                <Link to = "/goal">
+                Start
+                </Link>
+                </button>
                 </div>
                 </MyContainer>
 

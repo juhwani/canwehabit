@@ -6,11 +6,11 @@ function header(){
     return ( 
     <div className='Sidebar'>
             <div className='logo'>
-            Can We Have it?
+            Can We Habit?
             </div>
-            <ul>
-            <img src="../images/profile.png" /> Hyeongkwon Kim
-            </ul>
+            <div className = "header-font">
+                😊Jane Doe
+            </div>
                 
             
         <ul className="SidebarList">
