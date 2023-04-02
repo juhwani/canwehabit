@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../../components/header/header.js'
+import Header from '../../components/topheader/topheader.js'
 import "./home.css"
 import setImg from "./image/Set.png";
 import readyImg from "./image/Ready.png"
